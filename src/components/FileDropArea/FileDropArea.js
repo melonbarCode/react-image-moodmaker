@@ -19,7 +19,7 @@ const FileDropArea = () => {
       setImageFile(files[0]);
       setImageBinary(binaryBlob);
     };
-    
+
     reader.readAsDataURL(files[0]);
     // do something with your files...
   };
@@ -51,7 +51,7 @@ const FileDropArea = () => {
           }}
           onTargetClick={handleClickTarget}
         >
-          이미지를 넣어주세요
+          이미지를 넣어주세요 ( 드래그도 가능합니다 + )
         </FileDrop>
         <input
           onChange={handleFileInputChange}
