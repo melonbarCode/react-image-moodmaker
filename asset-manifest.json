@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-image-moodmaker/static/css/main.bf8e66b2.chunk.css",
+    "main.js": "/react-image-moodmaker/static/js/main.8614212c.chunk.js",
+    "main.js.map": "/react-image-moodmaker/static/js/main.8614212c.chunk.js.map",
+    "runtime-main.js": "/react-image-moodmaker/static/js/runtime-main.654fe20e.js",
+    "runtime-main.js.map": "/react-image-moodmaker/static/js/runtime-main.654fe20e.js.map",
+    "static/js/2.386770bf.chunk.js": "/react-image-moodmaker/static/js/2.386770bf.chunk.js",
+    "static/js/2.386770bf.chunk.js.map": "/react-image-moodmaker/static/js/2.386770bf.chunk.js.map",
+    "static/js/3.53ef9b35.chunk.js": "/react-image-moodmaker/static/js/3.53ef9b35.chunk.js",
+    "static/js/3.53ef9b35.chunk.js.map": "/react-image-moodmaker/static/js/3.53ef9b35.chunk.js.map",
+    "index.html": "/react-image-moodmaker/index.html",
+    "static/css/main.bf8e66b2.chunk.css.map": "/react-image-moodmaker/static/css/main.bf8e66b2.chunk.css.map",
+    "static/js/2.386770bf.chunk.js.LICENSE.txt": "/react-image-moodmaker/static/js/2.386770bf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.654fe20e.js",
+    "static/js/2.386770bf.chunk.js",
+    "static/css/main.bf8e66b2.chunk.css",
+    "static/js/main.8614212c.chunk.js"
+  ]
+}
