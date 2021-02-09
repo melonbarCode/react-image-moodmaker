@@ -10,9 +10,17 @@ const FileDropArea = () => {
 
   const handleFileInputChange = (event) => {
     const { files } = event.target;
-    console.log(files);
 
-    setImageFile(files[0]);
+    let reader = new FileReader();
+    reader.onloadend = () => {
+      const data = reader.result.split(",")[1];
+      const binaryBlob = atob(data);
+      setImageUrl(reader.result);
+      setImageFile(files[0]);
+      setImageBinary(binaryBlob);
+    };
+    
+    reader.readAsDataURL(files[0]);
     // do something with your files...
   };
 
